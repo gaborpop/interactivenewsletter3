@@ -1,0 +1,62 @@
+body {
+       background-color:#fefcfd;
+      font-family:"HelveticaNeue-Light", Times, serif;
+      }
+
+      /* Custom container */
+      .container {
+        margin: 0 auto;
+        max-width: 1000px;
+      }
+      .container > hr {
+        margin: 60px 0;
+      }
+
+      
+
+      /* Supporting marketing content */
+      .marketing {
+        margin: 60px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+      }
+
+
+     
+      
+.titlezine {
+  margin-top:42px;
+  font-size:24px;
+  color:gray;
+}
+.separateur {
+  height:10px;
+  background-color:#e85a3b;
+}
+.edito {
+padding:5px;
+margin-bottom:20px;  
+}
+.stratinit {
+padding:5px;
+  margin-bottom:20px; 
+  
+}
+.announcement {
+padding:5px;
+  margin-bottom:20px; 
+  
+}
+red {
+ color:red;
+}
+.bottom {
+ border: solid 3px red;
+  color:red;
+}
+.graph {
+  width:500px;
+  margin: 0 auto;
+  text-align:center;
+}
