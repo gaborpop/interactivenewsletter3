@@ -5,3 +5,7 @@ Meteor.startup(function () {
   Session.set('sessionMessage', true);
   });
 
+Router.configure({
+  autoRender: false
+});
+

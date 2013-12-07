@@ -7,5 +7,6 @@ standard-app-packages
 insecure
 preserve-inputs
 
-iron-router
 bootstrap
+jquery
+iron-router
