@@ -2,7 +2,7 @@
 
       <div class="row-fluid edito">
         <div class="span2">
-          <img src="" class="img-polaroid photoDamien" height="90">
+          <img src="paulnelson.PNG" class="img-polaroid photoDamien" height="90">
         </div> 
         <div class="span10">
           <h4>Dear colleagues,</h4>
@@ -36,11 +36,11 @@
             </p>
 
         <div class="row">
-          <div class="span6">
-            <img src="gssp_previous.png">
+          <div class="span6 gssp_image_left">
+            <img src="gssp_previous.png" width="400">
           </div>
-          <div class="span6">
-            <img src="gssp_new.png">
+          <div class="span6 gssp_image_right">
+            <img src="gssp_new.png" width="400">
           </div>
         </div>
 
@@ -54,18 +54,26 @@
                     
             
         <p class="text-center  citation"><em><strong>GSSP managers</strong></em></p>
-            <img src="GSSP.png">
-            
-        <p class="articletext">from left to right: Mick Hayman (GSSP), Toufic Rassi (GSSP Lebanon), Frank Albers (GSSP Mönchengladbach), Hanane Chehbi (GSSP Morocco), Alain Germain (GSSP Clichy), Véronique Debeugny (GSSP Lens) </p>
+           <div class="row"> 
+						 <div class="span12 image_gssp">
+							 <img src="GSSP.png" width="500">
+						 </div></div><br />
+<p class="articletext"><em>from left to right: Mick Hayman (GSSP), Toufic Rassi (GSSP Lebanon), Frank Albers (GSSP Mönchengladbach), Hanane Chehbi (GSSP Morocco), Alain Germain (GSSP Clichy), Véronique Debeugny (GSSP Lens)</em> </p>
         
         <div class="row-fluid buttonVote">
-                <form class="form-inline"> 
+              {{#if message}}
+							<form class="form-inline"> 
                   <!--[if IE]>
                   <p class="wantToVote">I want to comment the article (anonymous & not published)</p>
                   <![endif]-->
-                <textarea class="messageField" name="message" rows="2" placeholder="I want to comment the article (anonymous & not published)"></textarea><input class="btn btn-success btn-large" type="submit" value="Send">
+                <textarea class="messageField" name="message" rows="3" placeholder="I want to comment the article (anonymous & not published)"></textarea><input class="btn btn-success btn-large" type="submit" value="Send">
                 </form>
-              </div>
+              </div>              
+            {{else}}
+              <div class="alert alert-success"><button type="button" class="close" data-dismiss="alert">&times;</button>Your message has been sent. Thank you.</div>
+             {{/if}}  
+							
+
 
 
 
@@ -91,11 +99,7 @@
               {{else}}
               <div class="alert alert-success"><button type="button" class="close" data-dismiss="alert">&times;</button>Thank you for voting.</div>
               {{/if}}
-              {{#if message}}
               
-            {{else}}
-              <div class="alert alert-success"><button type="button" class="close" data-dismiss="alert">&times;</button>Your message has been sent. Thank you.</div>
-             {{/if}}
       <!-- Example row of columns -->
 
           </div>
@@ -104,12 +108,12 @@
                       <h2>Announcements</h2>
                     <div class="row-fluid announcement">
                       <div class="span4">
-                        <img src="OrlandoVaquero.png">
-                        <img src="balbouy.png">
+												<img src="OrlandoVaquero.png" width="100"><br />
+                        <img src="balbouy.png" width="100">
                       </div>  
-                       <div class="span8">
-                        <p>Here announcement for Orlando</p><br /><br /><br /><br />
-                        <p>Here announcement for Bernard</p>
+                       <div class="span8 announce">
+                        <p>Orlando Vaquero has been appointed Market Segment Director for Downstream Oil & Gas. He will lead the commercial development of O&G projects in EMEA region, replacing Bernard Albouy.</p>
+                        <p>Bernard Albouy takes over the role of O&G Project Leader to support the development of Nexans Turkey in order to become the O&G centre of excellence for Middle East.</p>
                       </div>  
                       
                     </div>  
