@@ -1,0 +1,173 @@
+{
+  "format": "browser-program-pre1",
+  "page": "app.html",
+  "manifest": [
+    {
+      "path": "4423c706b3a6353751b0f197f0214b2e3e9dd497.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/4423c706b3a6353751b0f197f0214b2e3e9dd497.js",
+      "size": 348683,
+      "hash": "4423c706b3a6353751b0f197f0214b2e3e9dd497"
+    },
+    {
+      "path": "aec2b436995eef2159cdbadcacd6c9ffa183a45a.css",
+      "where": "client",
+      "type": "css",
+      "cacheable": true,
+      "url": "/aec2b436995eef2159cdbadcacd6c9ffa183a45a.css",
+      "size": 122104,
+      "hash": "aec2b436995eef2159cdbadcacd6c9ffa183a45a"
+    },
+    {
+      "path": "packages/bootstrap/img/glyphicons-halflings.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/bootstrap/img/glyphicons-halflings.png",
+      "size": 12799,
+      "hash": "84f613631b07d4fe22acbab50e551c0fe04bd78b"
+    },
+    {
+      "path": "packages/bootstrap/img/glyphicons-halflings-white.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/bootstrap/img/glyphicons-halflings-white.png",
+      "size": 8777,
+      "hash": "a25c4705320fd63c33790e666872910e702b9bf6"
+    },
+    {
+      "path": "app/140.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/140.png",
+      "size": 1254,
+      "hash": "bd431ec64ad609df1e1017b0713c086378eeced9"
+    },
+    {
+      "path": "app/GSSP.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/GSSP.png",
+      "size": 148358,
+      "hash": "8a27f37d673c411d8c30dff420802c4c4e979dea"
+    },
+    {
+      "path": "app/OrlandoVaquero.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/OrlandoVaquero.png",
+      "size": 26308,
+      "hash": "6499439b885b611d2993f4785e35cd04390db092"
+    },
+    {
+      "path": "app/PhotoDSimon.jpg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/PhotoDSimon.jpg",
+      "size": 45004,
+      "hash": "eefe7995587287fe78c1830d215efaf9e9266168"
+    },
+    {
+      "path": "app/Slide1.jpg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/Slide1.jpg",
+      "size": 58798,
+      "hash": "b72a40d4d1084605240838d778dd8f3f50ac251e"
+    },
+    {
+      "path": "app/balbouy.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/balbouy.png",
+      "size": 19565,
+      "hash": "0930e5f9e4384e9fba8700f3b79ca16a6771ce99"
+    },
+    {
+      "path": "app/gpop.jpg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/gpop.jpg",
+      "size": 3565,
+      "hash": "d6de74ba385942fb791ec18149fa73462af0b36c"
+    },
+    {
+      "path": "app/graph.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/graph.png",
+      "size": 9321,
+      "hash": "d604a088d357b3e76310a508a5771925e7ec1d9f"
+    },
+    {
+      "path": "app/gssp2.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/gssp2.png",
+      "size": 56970,
+      "hash": "e7d732c84c26757a13793482c3c6f97f58cdeb2e"
+    },
+    {
+      "path": "app/gssp_new.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/gssp_new.png",
+      "size": 213302,
+      "hash": "3b73714f71bc8f1d345519f448e69b6e79b8594f"
+    },
+    {
+      "path": "app/gssp_previous.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/gssp_previous.png",
+      "size": 162373,
+      "hash": "f5cc46c7d5b50141cddb33d6d8874a960a4f2023"
+    },
+    {
+      "path": "app/nexans.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/nexans.png",
+      "size": 9161,
+      "hash": "5dc3750a7c18dcd4c70d46a56c0fcc09fc96f24d"
+    },
+    {
+      "path": "app/paulnelson.PNG",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/paulnelson.PNG",
+      "size": 188401,
+      "hash": "c9f81c6328b17dd6d112cf376982cde6abc6226b"
+    },
+    {
+      "path": "app/sharepoint.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/sharepoint.png",
+      "size": 51277,
+      "hash": "6b39abcfecf0b4409bd0083745b80dde0eb865eb"
+    },
+    {
+      "path": "app.html",
+      "where": "internal",
+      "hash": "827eaec38581e050d8457e6f7958530c0c120824"
+    }
+  ]
+}
